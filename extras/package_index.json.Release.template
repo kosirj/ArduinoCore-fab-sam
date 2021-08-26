@@ -1,22 +1,16 @@
 {
-	"name": "MattairTech SAM D|L|C core for Arduino",
+	"name": "Fab SAM D|L|C core for Arduino",
 	"architecture": "samd",
 	"version": "%%VERSION%%",
 	"category": "Contributed",
-	"url": "https://www.mattairtech.com/software/arduino/%%FILENAME%%",
+	"url": "https://github.com/qbolsee/ArduinoCore-fab-sam/archive/refs/tags/%%VERSION%%/%%FILENAME%%"
 	"archiveFileName": "%%FILENAME%%",
 	"checksum": "SHA-256:%%CHECKSUM%%",
 	"size": "%%SIZE%%",
         "boards": [
-            {"name": "Xeno_Mini"},
-            {"name": "Xeno"},
-            {"name": "MT-D21E"},
-            {"name": "MT-D21E_revB"},
-            {"name": "MT-D11"},
+            {"name": "Generic_D21E"},
             {"name": "Generic_D11C14A"},
             {"name": "Generic_D11D14AS"},
-            {"name": "arduino_zero"},
-            {"name": "arduino_mzero"}
 	],
 	"toolsDependencies": [
 	{
