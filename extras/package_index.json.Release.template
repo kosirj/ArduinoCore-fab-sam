@@ -3,7 +3,7 @@
 	"architecture": "samd",
 	"version": "%%VERSION%%",
 	"category": "Contributed",
-	"url": "https://github.com/qbolsee/ArduinoCore-fab-sam/archive/refs/tags/%%VERSION%%/%%FILENAME%%"
+	"url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/%%VERSION%%/%%FILENAME%%"
 	"archiveFileName": "%%FILENAME%%",
 	"checksum": "SHA-256:%%CHECKSUM%%",
 	"size": "%%SIZE%%",
