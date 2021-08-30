@@ -1,0 +1,132 @@
+{
+   "packages":[
+      {
+         "name":"Fab_SAM_Arduino",
+         "maintainer":"Fab Foundation",
+         "websiteURL":"https://github.com/qbolsee/ArduinoCore-fab-sam",
+         "email":"",
+         "help":{
+            "online":""
+         },
+         "platforms":[
+             {
+             	"name": "Fab SAM D|L|C core for Arduino",
+             	"architecture": "samd",
+             	"version": "1.6.18",
+             	"category": "Contributed",
+             	"url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18/Fab_SAM_DLC_Core_for_Arduino-1.6.18.tar.bz2",
+             	"archiveFileName": "Fab_SAM_DLC_Core_for_Arduino-1.6.18.tar.bz2",
+             	"checksum": "SHA-256:238f9c94419453dc9643cb1aa0ac432dce45de73fcc0f185a74c3b0240d6a607",
+             	"size": "308255",
+                 "boards": [
+                         {"name": "Generic_D21E"},
+                         {"name": "Generic_D11C14A"},
+                         {"name": "Generic_D11D14AS"},
+             	],
+             	"toolsDependencies": [
+             	{
+             		"packager": "arduino",
+             		"name": "arm-none-eabi-gcc",
+             		"version": "4.8.3-2014q1"
+             	},
+             	{
+             		"packager": "MattairTech_Arduino",
+             		"name": "bossac",
+             		"version": "1.7.0-mattairtech-3"
+             	},
+             	{
+             		"packager": "arduino",
+             		"name": "openocd",
+             		"version": "0.9.0-arduino"
+             	},
+             	{
+             		"packager": "arduino",
+             		"name": "CMSIS",
+             		"version": "4.5.0"
+             	},
+             	{
+             		"packager": "MattairTech_Arduino",
+             		"name": "CMSIS-Atmel",
+             		"version": "1.0.0-mattairtech-2"
+             	},
+             	{
+             		"packager": "arduino",
+             		"name": "arduinoOTA",
+             		"version": "1.2.0"
+             	}
+             	]
+             }
+         ],
+         "tools":[
+            {
+               "name":"bossac",
+               "version":"1.7.0-mattairtech-3",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://www.mattairtech.com/software/arduino/bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                     "archiveFileName":"bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                     "checksum":"SHA-256:ce6ce590c612dc8b18ba52df3903ba3d43416c92ef54538881cc07fdd2ef1f04",
+                     "size":"325719"
+                  },
+                  {
+                     "host":"x86_64-pc-linux-gnu",
+                     "url":"https://www.mattairtech.com/software/arduino/bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                     "archiveFileName":"bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                     "checksum":"SHA-256:e0801cd435a0aa08a4ccc1781cdcc1bf9ae92e248888163a1bb4dce20c00bcf9",
+                     "size":"34622"
+                  },
+                  {
+                     "host":"i686-pc-linux-gnu",
+                     "url":"https://www.mattairtech.com/software/arduino/bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                     "archiveFileName":"bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                     "checksum":"SHA-256:edd3bc6fd80641563dc6ca337d695fca25c2d43242172ea0418b678d4dbe0628",
+                     "size":"34628"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://www.mattairtech.com/software/arduino/bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                     "archiveFileName":"bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                     "checksum":"SHA-256:da4d4b04582f92d09e3d48a1ec4d2473b6cd01bba992c0f1f2cd7ee1008f08f8",
+                     "size":"88845"
+                  }
+               ]
+            },
+            {
+               "name":"CMSIS-Atmel",
+               "version":"1.0.0-mattairtech-2",
+               "systems":[
+                  {
+                     "host":"i686-mingw32",
+                     "url":"https://www.mattairtech.com/software/arduino/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "archiveFileName":"CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "checksum":"SHA-256:d10ca2a14c8db5757d2b1b4c1e52473ae5337f0762c6617a6074373f2f44540d",
+                     "size":"2008479"
+                  },
+                  {
+                     "host":"x86_64-pc-linux-gnu",
+                     "url":"https://www.mattairtech.com/software/arduino/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "archiveFileName":"CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "checksum":"SHA-256:d10ca2a14c8db5757d2b1b4c1e52473ae5337f0762c6617a6074373f2f44540d",
+                     "size":"2008479"
+                  },
+                  {
+                     "host":"i686-pc-linux-gnu",
+                     "url":"https://www.mattairtech.com/software/arduino/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "archiveFileName":"CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "checksum":"SHA-256:d10ca2a14c8db5757d2b1b4c1e52473ae5337f0762c6617a6074373f2f44540d",
+                     "size":"2008479"
+                  },
+                  {
+                     "host":"x86_64-apple-darwin",
+                     "url":"https://www.mattairtech.com/software/arduino/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "archiveFileName":"CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                     "checksum":"SHA-256:d10ca2a14c8db5757d2b1b4c1e52473ae5337f0762c6617a6074373f2f44540d",
+                     "size":"2008479"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

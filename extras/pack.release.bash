@@ -39,4 +39,4 @@ cat extras/package_index.json.Release.template |
 sed "s/%%VERSION%%/${VERSION}/" |
 sed "s/%%FILENAME%%/${FILENAME}/" |
 sed "s/%%CHECKSUM%%/${CHKSUM}/" |
-sed "s/%%SIZE%%/${SIZE}/" > package_Fab_SAM_DLC_Core_for_Arduino-${VERSION}_index.json
+sed "s/%%SIZE%%/${SIZE}/" > json/package_Fab_SAM_DLC_Core_for_Arduino-${VERSION}_index.json
