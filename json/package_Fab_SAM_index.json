@@ -12,12 +12,12 @@
                 {
                     "name": "Fab SAM core for Arduino",
                     "architecture": "samd",
-                    "version": "1.6.18",
+                    "version": "1.6.18-alpha1",
                     "category": "Contributed",
-                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18/Fab_SAM_Core_for_Arduino-1.6.18.tar.bz2",
-                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18.tar.bz2",
-                    "checksum": "SHA-256:3ccf87ab650a722248c4847fd6ceb4c22049bf3a37d5a9688af58064c848cfe3",
-                    "size": "630541",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha1/Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "checksum": "SHA-256:5745e58fe3d6fc0b47b7f19f241684219e9df623eb6da033d7247e8e244b9bfd",
+                    "size": "357035",
                     "boards": [
                         {
                             "name": "Generic_D21E"

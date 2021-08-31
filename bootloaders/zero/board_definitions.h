@@ -27,6 +27,14 @@
   #include "board_definitions/board_definitions_Generic_x21G.h"
 #elif defined(BOARD_ID_Generic_x21J)
   #include "board_definitions/board_definitions_Generic_x21J.h"
+#elif defined(BOARD_ID_Generic_D51G)
+  #include "board_definitions/board_definitions_Generic_D51G.h"
+#elif defined(BOARD_ID_Generic_D51J)
+  #include "board_definitions/board_definitions_Generic_D51J.h"
+#elif defined(BOARD_ID_Generic_D51N)
+  #include "board_definitions/board_definitions_Generic_D51N.h"
+#elif defined(BOARD_ID_Generic_D51P)
+  #include "board_definitions/board_definitions_Generic_D51P.h"
 #elif defined(BOARD_ID_Generic_D11D14AM)
   #include "board_definitions/board_definitions_Generic_D11D14AM.h"
 #elif defined(BOARD_ID_Generic_D11D14AS)
