@@ -67,10 +67,10 @@
                     "architecture": "samd",
                     "version": "1.6.18-alpha2",
                     "category": "Contributed",
-                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha1/Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
-                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
-                    "checksum": "SHA-256:5745e58fe3d6fc0b47b7f19f241684219e9df623eb6da033d7247e8e244b9bfd",
-                    "size": "357035",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha2/Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "checksum": "SHA-256:8cad6f69b8a5a9508c3ff0f6e64a6d0d12fbad993baa9d1a820de54113f03fb7",
+                    "size": "735460",
                     "boards": [
                         {
                             "name": "Generic_D11C14A"

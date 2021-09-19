@@ -9,13 +9,28 @@
     "size": "%%SIZE%%",
     "boards": [
         {
-            "name": "Generic_D21E"
-        },
-        {
             "name": "Generic_D11C14A"
         },
         {
             "name": "Generic_D11D14AS"
+        },
+        {
+            "name": "Generic_D11D14AM"
+        },
+        {
+            "name": "Generic_x21E"
+        },
+        {
+            "name": "Generic_x21G"
+        },
+        {
+            "name": "Generic_x21J"
+        },
+        {
+            "name": "Generic_D51G"
+        },
+        {
+            "name": "Generic_D51J"
         }
     ],
     "toolsDependencies": [
@@ -40,14 +55,14 @@
             "version": "4.5.0"
         },
         {
-            "packager": "Fab_SAM_Arduino",
+            "packager": "arduino",
             "name": "CMSIS-Atmel",
-            "version": "1.0.0-mattairtech-2"
+            "version": "1.2.0"
         },
         {
             "packager": "arduino",
             "name": "arduinoOTA",
-            "version": "1.2.0"
+            "version": "1.2.1"
         }
     ]
 }

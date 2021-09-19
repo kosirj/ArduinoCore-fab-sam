@@ -1,3 +1,5 @@
 *.bz2
 
 bootloaders/*/build/
+extras/*
+!extras/package_Fab_SAM_index.json
