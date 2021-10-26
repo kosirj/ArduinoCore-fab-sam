@@ -175,28 +175,28 @@
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
-                            "size": "1973076"
+                            "size": "1977965"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
-                            "size": "1973076"
+                            "size": "1977965"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
-                            "size": "1973076"
+                            "size": "1977965"
                         },
                         {
                             "host": "x86_64-apple-darwin",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
-                            "size": "1973076"
+                            "size": "1977965"
                         }
                     ]
                 }
