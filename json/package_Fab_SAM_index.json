@@ -174,28 +174,28 @@
                             "host": "i686-mingw32",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
-                            "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
-                            "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
-                            "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-apple-darwin",
                             "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
-                            "checksum": "SHA-256:05388a646232829451b9ed4149f86d3f5b385818657d153d492dae68a32bf3b5",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         }
                     ]
