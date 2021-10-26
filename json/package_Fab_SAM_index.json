@@ -140,29 +140,29 @@
                             "host": "i686-mingw32",
                             "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
                             "archiveFileName": "bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
-                            "checksum": "SHA-256:25ec8b143ab242af6ea91507b233e70fec57cb4f000cd5e1c8a464d12b7dd174",
-                            "size": "326189"
+                            "checksum": "SHA-256:81e5fc6577135b548b3154035742826e855eba257cc2f4c8f98f32e8f82b8b1e",
+                            "size": "326228"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
                             "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
-                            "checksum": "SHA-256:8ac10489b4264417a34d8b4fb32cd9d0fadf795dced500c03826fd18a04705ff",
-                            "size": "37866"
+                            "checksum": "SHA-256:c1156472f375626e6494a06787e1989abdc88cf091b554b45015c4ef698fbcb4",
+                            "size": "37896"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
                             "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
                             "archiveFileName": "bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
-                            "checksum": "SHA-256:7e695c68100d1e6ccb064dba5a01b8f2bd51c3e8d09fc84962349dba534d22bb",
-                            "size": "40156"
+                            "checksum": "SHA-256:c4e346ce1851c4202111da34db9c47a7f15f15b9a0110040c6d343ca3b0ed8d3",
+                            "size": "40192"
                         },
                         {
                             "host": "x86_64-apple-darwin",
                             "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
                             "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
-                            "checksum": "SHA-256:a4cde49483e8185875d7a2d45e58d34964499e3ec0453447423a8ef9576c2b78",
-                            "size": "30043"
+                            "checksum": "SHA-256:0fe5cc3c8575b6747bae471582791ae36509aef65af156a9cad58b42c2c20200",
+                            "size": "30073"
                         }
                     ]
                 },
