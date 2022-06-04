@@ -18,7 +18,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Fab SAM core for Arduino
-version=1.6.18-alpha2
+version=1.7.0
 
 # Compile variables
 # -----------------
@@ -150,7 +150,7 @@ tools.avrdude_remote.upload.pattern="openocd --version 2>&1 | grep 2016 && if op
 #
 # BOSSA
 #
-tools.bossac.path={runtime.tools.bossac-1.7.0-mattairtech-3.path}
+tools.bossac.path={runtime.tools.bossac-1.8.0.path}
 tools.bossac.cmd=bossac
 tools.bossac.cmd.windows=bossac.exe
 
