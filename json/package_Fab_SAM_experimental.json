@@ -344,8 +344,8 @@
                             "host": "i686-mingw32",
                             "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.tar.gz",
                             "archiveFileName": "bossac-1.9.0-windows.tar.gz",
-                            "checksum": "SHA-256:6df8e700d3bf35ff994faf740eca4b1e664a4f1734826a69b345fdf92af314f4",
-                            "size": "348546"
+                            "checksum": "SHA-256:a4ee6d91bf103c876d019b8f09e735f264dcb0cb64c97f80227ea88aaa1f3aae",
+                            "size": "348553"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
