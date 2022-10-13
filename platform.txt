@@ -151,8 +151,8 @@ tools.avrdude_remote.upload.pattern="openocd --version 2>&1 | grep 2016 && if op
 # BOSSA
 #
 tools.bossac.path={runtime.tools.bossac-1.9.0.path}
-tools.bossac.cmd=bin/bossac
-tools.bossac.cmd.windows=bin/bossac.exe
+tools.bossac.cmd=bossac
+tools.bossac.cmd.windows=bossac.exe
 
 tools.bossac.upload.params.verbose=-i -d
 tools.bossac.upload.params.quiet=
