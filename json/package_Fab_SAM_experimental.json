@@ -342,31 +342,31 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.tar.gz",
-                            "archiveFileName": "bossac-1.9.0-windows.tar.gz",
-                            "checksum": "SHA-256:a4ee6d91bf103c876d019b8f09e735f264dcb0cb64c97f80227ea88aaa1f3aae",
-                            "size": "348553"
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.zip",
+                            "archiveFileName": "bossac-1.9.0-windows.zip",
+                            "checksum": "SHA-256:1677e81bde9c105399f18e8db59089a2464085c4bb250baaefad13a939330b14",
+                            "size": "347565"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.gz",
-                            "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.gz",
-                            "checksum": "SHA-256:52a5e35958017c79c869607e6ba8721fb192bb837de4651eb18bbee8f3459940",
-                            "size": "39119"
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "checksum": "SHA-256:b55a88b5b431ac7d5367ede0a8a5cbded2ad9f6c5ecede906dacfbb52578f428",
+                            "size": "38374"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.gz",
-                            "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.gz",
-                            "checksum": "SHA-256:e4a3a8a36333f9b2b66ffd2d1b0f49c8c1d2375c74ead3c2da3129e3e4c1e346",
-                            "size": "41362"
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "checksum": "SHA-256:4f7553978ef4d8e9cbdafd4badf598cdc9332753cf6c3d67c65633e6640783f8",
+                            "size": "40871"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.gz",
-                            "archiveFileName": "bossac-1.9.0-mac-os.tar.gz",
-                            "checksum": "SHA-256:18fb50f2384a2bdf9363b11ee2daad1bace1586b39c7439158ab1be7a61556fe",
-                            "size": "31023"
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.bz2",
+                            "archiveFileName": "bossac-1.9.0-mac-os.tar.bz2",
+                            "checksum": "SHA-256:cfead2275d1509ab8122d2dc5e4e899d3dac41e8937d46248f271fa6dcc18f73",
+                            "size": "31120"
                         }
                     ]
                 },
