@@ -1,0 +1,410 @@
+{
+    "packages": [
+        {
+            "name": "Fab_SAM_Arduino",
+            "maintainer": "Fab Foundation",
+            "websiteURL": "https://github.com/qbolsee/ArduinoCore-fab-sam",
+            "email": "",
+            "help": {
+                "online": ""
+            },
+            "platforms": [
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.6.18-alpha1",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha1/Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha1.tar.bz2",
+                    "checksum": "SHA-256:5745e58fe3d6fc0b47b7f19f241684219e9df623eb6da033d7247e8e244b9bfd",
+                    "size": "357035",
+                    "boards": [
+                        {
+                            "name": "Generic_D21E"
+                        },
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-mattairtech-3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.0"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.6.18-alpha2",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.6.18-alpha2/Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.6.18-alpha2.tar.bz2",
+                    "checksum": "SHA-256:76cf96905c6a70090a212f1309014bf4e7e94189d2dc88de90d8b95d1997c500",
+                    "size": "356816",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.7.0-mattairtech-3"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.7.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.7.0/Fab_SAM_Core_for_Arduino-1.7.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.7.0.tar.bz2",
+                    "checksum": "SHA-256:84e5d6919fdea31c5a56420d9a8d8a0347196675f4b7b96b0e99c20bdfecae57",
+                    "size": "356441",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.8.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.8.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.8.0/Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.8.0.tar.bz2",
+                    "checksum": "SHA-256:8176e8931d31c066609835e6e4e2424abbc551bb90f2338761243f9886db8e18",
+                    "size": "356241",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        }
+                    ]
+                }
+            ],
+            "tools": [
+                {
+                    "name": "bossac",
+                    "version": "1.7.0-mattairtech-3",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-mingw32.tar.gz",
+                            "checksum": "SHA-256:81e5fc6577135b548b3154035742826e855eba257cc2f4c8f98f32e8f82b8b1e",
+                            "size": "326228"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:c1156472f375626e6494a06787e1989abdc88cf091b554b45015c4ef698fbcb4",
+                            "size": "37896"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-i686-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:c4e346ce1851c4202111da34db9c47a7f15f15b9a0110040c6d343ca3b0ed8d3",
+                            "size": "40192"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.7.0-mattairtech-3/bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                            "archiveFileName": "bossac-1.7.0-mattairtech-3-x86_64-apple-darwin.tar.gz",
+                            "checksum": "SHA-256:0fe5cc3c8575b6747bae471582791ae36509aef65af156a9cad58b42c2c20200",
+                            "size": "30073"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.8.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-windows.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-windows.tar.gz",
+                            "checksum": "SHA-256:c2dee790792eb9d38fe716903798e18c91bd25b6718e89d8b177ebe4e5a55034",
+                            "size": "347551"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:432faadba16b959013aa2905e69a94470b84ade4becffd92b39dcadff283ed3b",
+                            "size": "38161"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-i686-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-i686-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:52d7e66d4880eeb4868f77b38ae676a5715cf7e192a1a7f6d74c867aaa3eefca",
+                            "size": "40405"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.8.0/bossac-1.8.0-mac-os.tar.gz",
+                            "archiveFileName": "bossac-1.8.0-mac-os.tar.gz",
+                            "checksum": "SHA-256:fc2baa24fac7f41303ac2952c92704f23129e26090b048e693e0d202a1bbf613",
+                            "size": "30052"
+                        }
+                    ]
+                },
+                {
+                    "name": "bossac",
+                    "version": "1.9.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.tar.gz",
+                            "archiveFileName": "bossac-1.9.0-windows.tar.gz",
+                            "checksum": "SHA-256:35f78edef212b454bc87370972faf1695e602e9e7e86abad47b0a9faaa92d07a",
+                            "size": "347581"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:ac701046115603d032be1fc35714a344367dec6e1c972c4af4ce325919d217a1",
+                            "size": "38193"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.gz",
+                            "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.gz",
+                            "checksum": "SHA-256:1e7ea6af7d6490b4dd1c67a93547b0547f740919d99b963df4e8c8c8c7fec86d",
+                            "size": "40438"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.gz",
+                            "archiveFileName": "bossac-1.9.0-mac-os.tar.gz",
+                            "checksum": "SHA-256:038a1fb354fe46cd70838e1893ef900b13c9c8c16c06c82d2bf4208e6cc1c098",
+                            "size": "30090"
+                        }
+                    ]
+                },
+                {
+                    "name": "CMSIS-Atmel",
+                    "version": "1.0.0-mattairtech-2",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        },
+                        {
+                            "host": "x86_64-apple-darwin",
+                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
+                            "size": "1977965"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
