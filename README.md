@@ -1,5 +1,12 @@
 # Fab SAM D|L|C Core for Arduino
 
+## Quitck installation guide
+
+You can find a guide here:
+https://gitlab.cba.mit.edu/quentinbolsee/Arduino-SAM-tutorial/
+
+## Summary
+
 This repository is a Fab community fork of the original [MattairTech SAM D|L|C Core](https://github.com/mattairtech/ArduinoCore-samd).
 
 It offers support for:
