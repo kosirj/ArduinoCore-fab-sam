@@ -18,7 +18,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Fab SAM core for Arduino
-version=1.9.0
+version=1.10.0
 
 # Compile variables
 # -----------------
@@ -126,8 +126,8 @@ debug.toolchain=gcc
 debug.toolchain.path={runtime.tools.arm-none-eabi-gcc.path}/bin/
 debug.toolchain.prefix=arm-none-eabi-
 debug.server=openocd
-debug.server.openocd.path={runtime.tools.openocd-0.9.0-arduino.path}/bin/openocd
-debug.server.openocd.scripts_dir={runtime.tools.openocd-0.9.0-arduino.path}/share/openocd/scripts/
+debug.server.openocd.path={runtime.tools.openocd-0.10.0-arduino7.path}/bin/openocd
+debug.server.openocd.scripts_dir={runtime.tools.openocd-0.10.0-arduino7.path}/share/openocd/scripts/
 debug.server.openocd.script={runtime.platform.path}/variants/{build.variant}/{build.openocdscript}
 
 # Upload/Debug tools
@@ -167,7 +167,7 @@ tools.bossac.upload.network_pattern="{network_cmd}" -address {serial.port} -port
 # OpenOCD sketch upload
 #
 
-tools.openocd.path={runtime.tools.openocd-0.9.0-arduino.path}
+tools.openocd.path={runtime.tools.openocd-0.10.0-arduino7.path}
 tools.openocd.cmd=bin/openocd
 tools.openocd.cmd.windows=bin/openocd.exe
 
@@ -191,14 +191,14 @@ tools.openocd.erase.pattern="{path}/{cmd}" {bootloader.verbose} -s "{path}/share
 
 tools.openocd.bootloader.params.verbose=-d2
 tools.openocd.bootloader.params.quiet=-d0
-tools.openocd.bootloader.pattern="{path}/{cmd}" {bootloader.verbose} -s "{path}/share/openocd/scripts/" -f "{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}" -c "telnet_port disabled; init; targets; reset halt; at91samd chip-erase; at91samd bootloader 0; program {{{runtime.platform.path}/bootloaders/{bootloader.file}}} verify reset; shutdown"
+tools.openocd.bootloader.pattern="{path}/{cmd}" {bootloader.verbose} -s "{path}/share/openocd/scripts/" -f "{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}" -c "telnet_port disabled; init; targets; reset halt; at91samd bootloader 0; program {{runtime.platform.path}/bootloaders/{bootloader.file}} verify reset; shutdown"
 
 #
 # OpenOCD sketch upload - version with configurable bootloader size
 # FIXME: this programmer is a workaround for default options being overwritten by uploadUsingPreferences
 #
 
-tools.openocd-withbootsize.path={runtime.tools.openocd-0.9.0-arduino.path}
+tools.openocd-withbootsize.path={runtime.tools.openocd-0.10.0-arduino7.path}
 tools.openocd-withbootsize.cmd=bin/openocd
 tools.openocd-withbootsize.cmd.windows=bin/openocd.exe
 
@@ -219,4 +219,4 @@ tools.openocd-withbootsize.erase.pattern="{path}/{cmd}" {bootloader.verbose} -s 
 
 tools.openocd-withbootsize.bootloader.params.verbose=-d2
 tools.openocd-withbootsize.bootloader.params.quiet=-d0
-tools.openocd-withbootsize.bootloader.pattern="{path}/{cmd}" {bootloader.verbose} -s "{path}/share/openocd/scripts/" -f "{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}" -c "telnet_port disabled; init; targets; reset halt; at91samd chip-erase; at91samd bootloader 0; program {{{runtime.platform.path}/bootloaders/{bootloader.file}}} verify reset; shutdown"
+tools.openocd-withbootsize.bootloader.pattern="{path}/{cmd}" {bootloader.verbose} -s "{path}/share/openocd/scripts/" -f "{runtime.platform.path}/variants/{build.variant}/{build.openocdscript}" -c "telnet_port disabled; init; targets; reset halt; at91samd bootloader 0; program {{runtime.platform.path}/bootloaders/{bootloader.file}} verify reset; shutdown"
