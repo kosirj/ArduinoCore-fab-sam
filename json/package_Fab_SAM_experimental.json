@@ -467,11 +467,29 @@
                             "packager": "arduino",
                             "name": "arduinoOTA",
                             "version": "1.2.1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "edbg",
+                            "version": "0.50.0"
                         }
                     ]
                 }
             ],
             "tools": [
+                {
+                    "name": "edbg",
+                    "version": "0.50.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-win32.tar.gz",
+                            "archiveFileName": "edbg-0.50.0-win32.tar.gz",
+                            "checksum": "SHA-256:1611c24dcd9a49ebc7e704369d7ed3a70750eb1b7c3282443c4026b8f737a015",
+                            "size": "147999"
+                        },
+                    ]
+                },
                 {
                     "name": "bossac",
                     "version": "1.7.0-mattairtech-3",
