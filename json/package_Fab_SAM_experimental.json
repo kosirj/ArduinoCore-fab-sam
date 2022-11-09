@@ -483,31 +483,31 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-win32.tar.gz",
-                            "archiveFileName": "edbg-0.50.0-win32.tar.gz",
-                            "checksum": "SHA-256:1611c24dcd9a49ebc7e704369d7ed3a70750eb1b7c3282443c4026b8f737a015",
-                            "size": "147999"
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-win32.zip",
+                            "archiveFileName": "edbg-0.50.0-win32.zip",
+                            "checksum": "SHA-256:c26c964c0635363ce3b947cf0b8995be33455d09cc42e506609ba65d97eb9a24",
+                            "size": "148852"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-x86_64-linux.tar.gz",
-                            "archiveFileName": "edbg-0.50.0-x86_64-linux.tar.gz",
-                            "checksum": "SHA-256:fac7b291b82f64fc594aa7e26e5932a821238a685e21c6b34f3ccb6a562d2a3e",
-                            "size": "52856"
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-x86_64-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-x86_64-linux.tar.bz2",
+                            "checksum": "SHA-256:822936e2472a3ff70d00eb2eae5ccf0938ae078ccf8dcefb48bec570559b2c9f",
+                            "size": "53577"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i686-linux.tar.gz",
-                            "archiveFileName": "edbg-0.50.0-i686-linux.tar.gz",
-                            "checksum": "SHA-256:3b88ed2bc426104bc2b8ce3bd4f9c3bfdfe44d16cf8b9bbe500dffbf80ee384b",
-                            "size": "52855"
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i686-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-i686-linux.tar.bz2",
+                            "checksum": "SHA-256:7c6547be1a5c651865243ab835564b5b71b7d5cab6d6cbf782ef5170e350adad",
+                            "size": "53558"
                         },
                         {
                             "host": "i386-apple-darwin11",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i386-apple-darwin11.tar.gz",
-                            "archiveFileName": "edbg-0.50.0-i386-apple-darwin11.tar.gz",
-                            "checksum": "SHA-256:e84b4b5f06c12756bde29255ee8bd99a35dd5363f560e4823e7119147d486937",
-                            "size": "42954"
+                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.50.0-i386-apple-darwin11.tar.bz2",
+                            "archiveFileName": "edbg-0.50.0-i386-apple-darwin11.tar.bz2",
+                            "checksum": "SHA-256:f5797dc582f625a7d82e9e73cf4311be50998acf601aa3e9251c23e4bee025e4",
+                            "size": "44141"
                         }
                     ]
                 },
