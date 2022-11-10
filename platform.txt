@@ -171,18 +171,18 @@ tools.edbg.cmd=edbg
 tools.edbg.cmd.windows=edbg.exe
 
 tools.edbg.upload.params.verbose=-b
-tools.edbg.upload.params.quiet=
+tools.edbg.upload.params.quiet=-b
 tools.edbg.upload.pattern="{path}/{cmd}" {upload.verbose} -t {build.chip} -pv {upload.erase} -f "{build.path}/{build.project_name}.bin" -x 10
 
 tools.edbg.network_cmd={runtime.tools.arduinoOTA.path}/bin/arduinoOTA
 tools.edbg.upload.network_pattern={network_cmd} -address {serial.port} -port 65280 -username arduino -password "{network.password}" -sketch "{build.path}/{build.project_name}.bin" -upload /sketch -b
 
 tools.edbg.program.params.verbose=-b
-tools.edbg.program.params.quiet=
+tools.edbg.program.params.quiet=-b
 tools.edbg.program.pattern="{path}/{cmd}" {program.verbose} -t {build.chip} -pv {upload.erase} -o {upload.offset} -f "{build.path}/{build.project_name}.bin" -x 10
 
 tools.edbg.erase.params.verbose=-b
-tools.edbg.erase.params.quiet=
+tools.edbg.erase.params.quiet=-b
 tools.edbg.erase.pattern="{path}/{cmd}" {erase.verbose} -t {build.chip} -e -F w,2:0,7
 
 tools.edbg.bootloader.params.verbose=-b
