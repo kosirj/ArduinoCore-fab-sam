@@ -18,12 +18,12 @@ edbg.name=CMSIS-DAP
 edbg.communication=USB
 edbg.protocol=
 edbg.program.protocol=
-edbg.program.tool=openocd-withbootsize
+edbg.program.tool=edbg
 edbg.program.extra_params=
 
 atmel_ice.name=Atmel-ICE
 atmel_ice.communication=USB
 atmel_ice.protocol=
 atmel_ice.program.protocol=
-atmel_ice.program.tool=openocd-withbootsize
+atmel_ice.program.tool=edbg
 atmel_ice.program.extra_params=

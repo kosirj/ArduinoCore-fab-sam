@@ -27,7 +27,7 @@ FILENAME=Fab_SAM_Core_for_Arduino-$VERSION.tar.bz2
 rm -f $FILENAME
 
 cd ..
-tar --transform "s|$FOLDERNAME|$FOLDERNAME-$VERSION|g" --exclude=extras* --exclude=.git* --exclude=*.tar.bz2 --exclude=.idea --exclude=json* -cjf $FILENAME $FOLDERNAME
+tar --transform "s|$FOLDERNAME|$FOLDERNAME-$VERSION|g" --exclude=extras* --exclude=tools* --exclude=.git* --exclude=*.tar.bz2 --exclude=.idea --exclude=json* -cjf $FILENAME $FOLDERNAME
 cd -
 
 mv ../$FILENAME .
