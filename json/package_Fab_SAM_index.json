@@ -341,8 +341,8 @@
                     "category": "Contributed",
                     "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.10.0/Fab_SAM_Core_for_Arduino-1.10.0.tar.bz2",
                     "archiveFileName": "Fab_SAM_Core_for_Arduino-1.10.0.tar.bz2",
-                    "checksum": "SHA-256:73ebf4fbfc0d798cbca01bc9ca18d7cbf1b9c2b196a1afec1a488b413520e8a8",
-                    "size": "356734",
+                    "checksum": "SHA-256:af48a1b497d34b975ed92f315daa5b6ccf8677ec7ac696926a35ee81a193f355",
+                    "size": "356733",
                     "boards": [
                         {
                             "name": "Generic_D11C14A"
