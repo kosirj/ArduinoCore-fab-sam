@@ -474,9 +474,116 @@
                             "version": "0.50.0"
                         }
                     ]
+                },
+                {
+                    "name": "Fab SAM core for Arduino",
+                    "architecture": "samd",
+                    "version": "1.11.0",
+                    "category": "Contributed",
+                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.11.0/Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.11.0.tar.bz2",
+                    "checksum": "SHA-256:ae7b510901beca4ef5a1b16090f5b2cc37adf1137caf66f7d88c29f232012b3d",
+                    "size": "356839",
+                    "boards": [
+                        {
+                            "name": "Generic_D11C14A"
+                        },
+                        {
+                            "name": "Generic_D11D14AS"
+                        },
+                        {
+                            "name": "Generic_D11D14AM"
+                        },
+                        {
+                            "name": "Generic_x21E"
+                        },
+                        {
+                            "name": "Generic_x21G"
+                        },
+                        {
+                            "name": "Generic_x21J"
+                        },
+                        {
+                            "name": "Generic_D51G"
+                        },
+                        {
+                            "name": "Generic_D51J"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "arduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "7-2017q4"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "bossac",
+                            "version": "1.9.0"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "openocd",
+                            "version": "0.10.0-arduino7"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.0.0-mattairtech-2"
+                        },
+                        {
+                            "packager": "arduino",
+                            "name": "arduinoOTA",
+                            "version": "1.2.1"
+                        },
+                        {
+                            "packager": "Fab_SAM_Arduino",
+                            "name": "edbg",
+                            "version": "0.51.0"
+                        }
+                    ]
                 }
             ],
             "tools": [
+                {
+                    "name": "edbg",
+                    "version": "0.51.0",
+                    "systems": [
+                        {
+                            "host": "i686-mingw32",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-win32.zip",
+                            "archiveFileName": "edbg-0.51.0-win32.zip",
+                            "checksum": "SHA-256:8dc289bf1c85fe522aae4bae08f673d364d02b74d0aef75c3eb40c1632f9bf10",
+                            "size": "148847"
+                        },
+                        {
+                            "host": "x86_64-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-x86_64-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-x86_64-linux.tar.bz2",
+                            "checksum": "SHA-256:ebbddae462f52a347a7548b59984a6489899bb5462de5ff26645f59bcfc27e37",
+                            "size": "53512"
+                        },
+                        {
+                            "host": "i686-pc-linux-gnu",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-i686-linux.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-i686-linux.tar.bz2",
+                            "checksum": "SHA-256:ebbddae462f52a347a7548b59984a6489899bb5462de5ff26645f59bcfc27e37",
+                            "size": "53512"
+                        },
+                        {
+                            "host": "i386-apple-darwin11",
+                            "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
+                            "archiveFileName": "edbg-0.51.0-i386-apple-darwin11.tar.bz2",
+                            "checksum": "SHA-256:0398f56577ac4318b34c16c033d784ac44d1c0d1735559be24ba6a9366db10f0",
+                            "size": "44689"
+                        }
+                    ]
+                },
                 {
                     "name": "edbg",
                     "version": "0.50.0",
