@@ -166,7 +166,7 @@ tools.bossac.upload.network_pattern="{network_cmd}" -address {serial.port} -port
 #
 # edbg sketch upload
 #
-tools.edbg.path={runtime.tools.edbg-0.50.0.path}
+tools.edbg.path={runtime.tools.edbg-0.51.0.path}
 tools.edbg.cmd=edbg
 tools.edbg.cmd.windows=edbg.exe
 
