@@ -579,8 +579,8 @@
                             "host": "i386-apple-darwin11",
                             "url": "https://github.com/qbolsee/edbg/releases/download/0.51.0/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-i386-apple-darwin11.tar.bz2",
-                            "checksum": "SHA-256:0398f56577ac4318b34c16c033d784ac44d1c0d1735559be24ba6a9366db10f0",
-                            "size": "44689"
+                            "checksum": "SHA-256:5bdcfee59e5da5bd419d7efbc6409333d030f276b6c80e62509bdde14e9b4d25",
+                            "size": "44238"
                         }
                     ]
                 },
