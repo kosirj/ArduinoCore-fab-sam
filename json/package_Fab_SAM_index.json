@@ -497,22 +497,22 @@
                             "host": "x86_64-pc-linux-gnu",
                             "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-x86_64-linux.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-x86_64-linux.tar.bz2",
-                            "checksum": "SHA-256:c9e241a4674030a09053fef1a405a97d372d0c9c915761ec0887ce3f1a009a30",
-                            "size": "143360"
+                            "checksum": "SHA-256:1a7cf4b2ea31969eca14223f3b31f268b41f9ebc1b235ea62b483089c8844578",
+                            "size": "53567"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
                             "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i686-linux.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-i686-linux.tar.bz2",
-                            "checksum": "SHA-256:c9e241a4674030a09053fef1a405a97d372d0c9c915761ec0887ce3f1a009a30",
-                            "size": "143360"
+                            "checksum": "SHA-256:1a7cf4b2ea31969eca14223f3b31f268b41f9ebc1b235ea62b483089c8844578",
+                            "size": "53567"
                         },
                         {
                             "host": "i386-apple-darwin11",
                             "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-i386-apple-darwin11.tar.bz2",
-                            "checksum": "SHA-256:205c18b51e8b746a74714025726cd8be307ba951e30deba51832914a6f3c99a5",
-                            "size": "133120"
+                            "checksum": "SHA-256:4510eca1dece282f4a65297ff330fe4f2838bc30dc3d456418abc35877fb1390",
+                            "size": "45562"
                         }
                     ]
                 },
