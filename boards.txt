@@ -112,6 +112,7 @@ d11c14a.menu.timer.timer_1465Hz.build.timerconfig=TIMER_1465Hz
 d11c14a.build.extra_flags=-D__SAMD11C14A__ {build.usb_flags} -DARM_MATH_CM0PLUS
 d11c14a.build.ldscript=flash_16KB.ld
 d11c14a.build.chip=samd11
+d11c14a.build.openocdscript=openocd_scripts/SAMD11C14A.cfg
 d11c14a.bootloader.file=zero/binaries/sam_ba_SAMD11C14A.bin
 d11c14a.menu.bootloader.4kb=4KB_BOOTLOADER
 d11c14a.menu.bootloader.4kb.build.bootloader_size=__4KB_BOOTLOADER__
