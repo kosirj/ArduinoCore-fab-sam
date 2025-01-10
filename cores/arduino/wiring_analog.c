@@ -418,7 +418,11 @@ void analogReference(eAnalogReference mode)
 #elif (SAML21 || SAMC21 || SAMD51)
   if (mode == 0) {		// Set to 1.0V for the SAML, 1.024V for the SAMC
     SUPC->VREF.reg &= ~SUPC_VREF_SEL_Msk;
+#if (SAMC21)
+  } else if (mode >= AR_INTREF_1V024) {		// Values starting at AR_INTREF_1V024 are used for the Supply Controller reference (AR_INTREF)
+#else
   } else if (mode >= AR_INTREF_1V0) {		// Values starting at AR_INTREF_1V0 are used for the Supply Controller reference (AR_INTREF)
+#endif
     SUPC->VREF.reg &= ~SUPC_VREF_SEL_Msk;
     #if (SAMD51)
       SUPC->VREF.reg |= SUPC_VREF_SEL(mode - AR_INTREF_1V0);  // See eAnalogReference typedef in wiring_analog.h. AR_INTREF_1V0 = 7.
