@@ -12,12 +12,12 @@
                 {
                     "name": "Fab SAM core for Arduino",
                     "architecture": "samd",
-                    "version": "1.12.0",
+                    "version": "1.0.0",
                     "category": "Contributed",
-                    "url": "https://github.com/kosirj/ArduinoCore-fab-sam/releases/download/1.12.0/Fab_SAM_Core_for_Arduino-1.12.0.tar.bz2",
-                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.12.0.tar.bz2",
-                    "checksum": "SHA-256:f0bd44defd0377192a543100f7e7086bab8844be7f75e3aed3dd208ec4064846",
-                    "size": "356371",
+                    "url": "https://github.com/kosirj/ArduinoCore-fab-sam/releases/download/1.0.0/Fab_SAM_Core_for_Arduino-1.0.0.tar.bz2",
+                    "archiveFileName": "Fab_SAM_Core_for_Arduino-1.0.0.tar.bz2",
+                    "checksum": "SHA-256:8616d64a6b5aa3da3aded1b584d1f1ab21014761fbb955d8a3096c1655b98fca",
+                    "size": "368622",
                     "boards": [
                         {
                             "name": "Generic_D11C14A"
