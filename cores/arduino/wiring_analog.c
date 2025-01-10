@@ -426,6 +426,8 @@ void analogReference(eAnalogReference mode)
     SUPC->VREF.reg &= ~SUPC_VREF_SEL_Msk;
     #if (SAMD51)
       SUPC->VREF.reg |= SUPC_VREF_SEL(mode - AR_INTREF_1V0);  // See eAnalogReference typedef in wiring_analog.h. AR_INTREF_1V0 = 7.
+    #elif (SAMC21)
+      SUPC->VREF.reg |= SUPC_VREF_SEL(mode - AR_INTREF_1V024);i  // See eAnalogReference typedef in wiring_analog.h. AR_INTREF_1V024 = 6.
     #else
       SUPC->VREF.reg |= SUPC_VREF_SEL(mode - AR_INTREF_1V0);  // See eAnalogReference typedef in wiring_analog.h. AR_INTREF_1V0 = 6.
     #endif
