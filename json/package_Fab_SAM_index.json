@@ -3,7 +3,7 @@
         {
             "name": "Fab_SAM_Arduino",
             "maintainer": "Fab Foundation",
-            "websiteURL": "https://github.com/qbolsee/ArduinoCore-fab-sam",
+            "websiteURL": "https://github.com/kosirj/ArduinoCore-fab-sam",
             "email": "",
             "help": {
                 "online": ""
@@ -14,7 +14,7 @@
                     "architecture": "samd",
                     "version": "1.12.0",
                     "category": "Contributed",
-                    "url": "https://github.com/qbolsee/ArduinoCore-fab-sam/releases/download/1.12.0/Fab_SAM_Core_for_Arduino-1.12.0.tar.bz2",
+                    "url": "https://github.com/kosirj/ArduinoCore-fab-sam/releases/download/1.12.0/Fab_SAM_Core_for_Arduino-1.12.0.tar.bz2",
                     "archiveFileName": "Fab_SAM_Core_for_Arduino-1.12.0.tar.bz2",
                     "checksum": "SHA-256:f0bd44defd0377192a543100f7e7086bab8844be7f75e3aed3dd208ec4064846",
                     "size": "356371",
@@ -90,28 +90,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-win32.zip",
+                            "url": "https://raw.githubusercontent.com/kosirj/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-win32.zip",
                             "archiveFileName": "edbg-0.51.0-win32.zip",
                             "checksum": "SHA-256:f2e1eb0ca2040fce69c6e37c3fefc50ad29e647d369b1b09696ee37a3d7358e6",
                             "size": "148853"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-x86_64-linux.tar.bz2",
+                            "url": "https://raw.githubusercontent.com/kosirj/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-x86_64-linux.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-x86_64-linux.tar.bz2",
                             "checksum": "SHA-256:1a7cf4b2ea31969eca14223f3b31f268b41f9ebc1b235ea62b483089c8844578",
                             "size": "53567"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i686-linux.tar.bz2",
+                            "url": "https://raw.githubusercontent.com/kosirj/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i686-linux.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-i686-linux.tar.bz2",
                             "checksum": "SHA-256:1a7cf4b2ea31969eca14223f3b31f268b41f9ebc1b235ea62b483089c8844578",
                             "size": "53567"
                         },
                         {
                             "host": "i386-apple-darwin11",
-                            "url": "https://raw.githubusercontent.com/qbolsee/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
+                            "url": "https://raw.githubusercontent.com/kosirj/ArduinoCore-fab-sam/master/tools/edbg/edbg-0.51.0-i386-apple-darwin11.tar.bz2",
                             "archiveFileName": "edbg-0.51.0-i386-apple-darwin11.tar.bz2",
                             "checksum": "SHA-256:4510eca1dece282f4a65297ff330fe4f2838bc30dc3d456418abc35877fb1390",
                             "size": "45562"
@@ -124,28 +124,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.zip",
+                            "url": "https://github.com/kosirj/BOSSA/releases/download/1.9.0/bossac-1.9.0-windows.zip",
                             "archiveFileName": "bossac-1.9.0-windows.zip",
                             "checksum": "SHA-256:1677e81bde9c105399f18e8db59089a2464085c4bb250baaefad13a939330b14",
                             "size": "347565"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
+                            "url": "https://github.com/kosirj/BOSSA/releases/download/1.9.0/bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-x86_64-linux-gnu.tar.bz2",
                             "checksum": "SHA-256:b55a88b5b431ac7d5367ede0a8a5cbded2ad9f6c5ecede906dacfbb52578f428",
                             "size": "38374"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.bz2",
+                            "url": "https://github.com/kosirj/BOSSA/releases/download/1.9.0/bossac-1.9.0-i686-linux-gnu.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-i686-linux-gnu.tar.bz2",
                             "checksum": "SHA-256:4f7553978ef4d8e9cbdafd4badf598cdc9332753cf6c3d67c65633e6640783f8",
                             "size": "40871"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/qbolsee/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.bz2",
+                            "url": "https://github.com/kosirj/BOSSA/releases/download/1.9.0/bossac-1.9.0-mac-os.tar.bz2",
                             "archiveFileName": "bossac-1.9.0-mac-os.tar.bz2",
                             "checksum": "SHA-256:cfead2275d1509ab8122d2dc5e4e899d3dac41e8937d46248f271fa6dcc18f73",
                             "size": "31120"
@@ -158,28 +158,28 @@
                     "systems": [
                         {
                             "host": "i686-mingw32",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/kosirj/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/kosirj/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "i686-pc-linux-gnu",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/kosirj/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
                         },
                         {
                             "host": "x86_64-apple-darwin",
-                            "url": "https://github.com/qbolsee/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
+                            "url": "https://github.com/kosirj/CMSIS-Atmel/releases/download/CMSIS-Atmel-1.0.0-mattairtech-2/CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "archiveFileName": "CMSIS-Atmel-1.0.0-mattairtech-2.tar.gz",
                             "checksum": "SHA-256:6d592de468028e76c085a7a416939a39389a06f3f03331cdc04a50e443ea4e9a",
                             "size": "1977965"
