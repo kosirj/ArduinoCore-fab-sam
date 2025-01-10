@@ -89,7 +89,7 @@
  * available on pin 6 (A6, VU), is also connected to the same enable pin. Defining VIN_5V_REGULATOR_INSTALLED
  * will prevent pin A6 from being configured as an output, thus avoiding contention.
  */
-#define VIN_5V_REGULATOR_INSTALLED
+//#define VIN_5V_REGULATOR_INSTALLED
 
 
 /*----------------------------------------------------------------------------
